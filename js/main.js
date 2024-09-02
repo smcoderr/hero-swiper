@@ -1,0 +1,1 @@
+var swiper=new Swiper(".mySwiper",{loop:!0,spaceBetween:0,pagination:{el:".swiper-pagination",clickable:!0}});let mobileMenuIcon=document.querySelector("header .fa-bars"),menu=document.querySelector("header .menu");mobileMenuIcon.addEventListener("click",function(){menu.classList.toggle("open")});
